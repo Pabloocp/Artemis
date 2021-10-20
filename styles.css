@@ -1,0 +1,82 @@
+body{
+    background-image: url('/fotos/background.jpg');
+}
+.container {
+    background-color: white;
+    width: 90%;
+    height: auto;
+    margin: 0px auto;
+    border: 1px solid rgba(225, 225, 226, 0.8);
+    box-shadow: 0px 0px 10px #ccc;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    min-height: 600px;
+  }
+h1{
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 10px;
+    color: #e41aa7;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(255 229 214);
+}
+
+.cabecera{
+    display:flex;
+    justify-content: space-around;
+}
+
+.estrella-icon1 img{
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    margin-top: 10px;
+    
+    text-align: center;
+    
+    
+    
+}
+
+.estrella-icon2 img{
+    width: 30px;
+    height: 30px;
+    padding: 15px;
+    margin-top: 10px;
+    
+    text-align: center;
+    
+}
+
+p{
+    margin: 0px auto;
+    margin-top: 15px;
+    width: 90%;
+    padding: 25px;
+    background-color: rgb(255 229 214);
+}
+
+.gato {
+    display: inline-block;
+    text-align: center;
+}
+
+.gato img{
+    width: 400px;
+    height: 300px;
+    padding: 20px;
+    margin-left: 120px;
+}
+
+footer {
+    margin: 0px auto;
+    width: 90%;
+    background-color: white;
+}
+
+.texto-footer {
+    background-color: white;
+    text-align: center;
+    color: black;
+}
